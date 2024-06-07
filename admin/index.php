@@ -55,10 +55,6 @@ session_start()
 
 <body id="page-top">
 <?php
-    $usuarioNaoExist = !isset($_SESSION['usuario']); //Realiza a verificação se o usuário esta logado
-    if ($usuarioNaoExist) {  //se nao estiver redireciona para o login
-        require "paginas/login.php";
-    } else {  //se estiver redireciona para a pagina.
     if (isset($_GET['param'])){
         $page = explode("/", $_GET['param']); //faz a separação da URl 
         $pasta = $page[0] ?? NULL;
@@ -70,6 +66,6 @@ session_start()
     }if (file_exists("$page.php")) { //check para ver se a URL que vai ser redirecioada é válida
             require "$page.php";
         }
-    }
+    
 ?>
 </body>
