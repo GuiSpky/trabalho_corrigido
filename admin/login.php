@@ -9,7 +9,7 @@
 
     if($loginNaoNull && $senhaNaoNull){
         if ($login=="aluno" && $senha=="123") {
-            echo "<script>location.href='paginas/inicio'</script>";
+            echo "<script>location.href='inicio'</script>";
             }
             $_SESSION["usuario"] = [
                 "nome" => $login,
@@ -30,12 +30,12 @@
         <br>
         <button type="submit" class="btn btn-warning w-100">Efetuar Login</button> 
         <br>
-        <a href="cadastro/esqueceu"
+        <a href="esqueceu"
             class="btn btn btn-link w-100">
                 <p>Esqueceu a senha?</p>
             </a>
 
-        <a href="cadastro/cadastro"
+        <a href="cadastro"
             class="btn btn btn-link w-100">
                 <p>Primeiro acesso!</p>
             </a>

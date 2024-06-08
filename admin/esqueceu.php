@@ -32,7 +32,7 @@
 
     if( $codigoNaoNull ){
         if($codigo == 'teste'){
-            echo "<script>location.href='cadastro/novaSenha'</script>";
+            echo "<script>location.href='novaSenha'</script>";
         }
     }
         
@@ -41,6 +41,6 @@
 
 <script>
     function cancelar(){
-        location.href="paginas/login"
+        location.href="login"
     }
 </script>

@@ -1,7 +1,7 @@
 <div class="login">
     <div class="card-body">
         <h2>Cadastros</h2>
-    <form method="POST" action="paginas/login"> 
+    <form method="POST" action="login"> 
 
     <label for="nome">Nome</label>    
     <input type="text" name="nome" 

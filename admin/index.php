@@ -61,7 +61,7 @@ session_start()
         $arquivo = $page[1] ?? NULL;
         $id = $page[2] ?? NULL;
 
-        $page = "$pasta/$arquivo";
+        $page = "$arquivo";
 
     }if (file_exists("$page.php")) { //check para ver se a URL que vai ser redirecioada é válida
             require "$page.php";
