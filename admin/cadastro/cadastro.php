@@ -24,7 +24,7 @@
             id="nome" class="form-control">
         <br>
         
-        <button type="submit" class="btn btn-success">Cadastrar</button>
+        <button type="submit" class="btn btn-warning">Cadastrar</button>
 
         </form>
 

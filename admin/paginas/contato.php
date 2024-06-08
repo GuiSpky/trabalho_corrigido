@@ -13,7 +13,7 @@
         <input type="number" name="Celular" id="Celular" class="form-control" 
         required placeholder="Digite seu numero">
         <br>
-        <button type="submit" class="btn btn-success w-100">Salvar contato</button>
+        <button type="submit" class="btn btn-warning w-100">Salvar contato</button>
     </form>
 
     <?php if($_POST){ 

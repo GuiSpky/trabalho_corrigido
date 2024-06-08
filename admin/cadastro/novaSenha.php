@@ -9,7 +9,7 @@
         <br>
         <label for="confirmar">Confirmar senha</label>
         <input type="text" name="confirmar" id="confirmar" class="form-control"> <br>
-        <button type="submit" class="btn btn-success w-100">Confirmar</button>
+        <button type="submit" class="btn btn-warning w-100">Confirmar</button>
     </div>
 </div>
 

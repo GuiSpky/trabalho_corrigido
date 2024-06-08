@@ -28,7 +28,7 @@
         <label for="Senha">Senha</label>
         <input type="password" name="senha" id="senha" class="form-control" required placeholder="Digite sua senha">
         <br>
-        <button type="submit" class="btn btn-success w-100">Efetuar Login</button> 
+        <button type="submit" class="btn btn-warning w-100">Efetuar Login</button> 
         <br>
         <a href="cadastro/esqueceu"
             class="btn btn btn-link w-100">

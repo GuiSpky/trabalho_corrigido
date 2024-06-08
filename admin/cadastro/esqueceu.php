@@ -5,7 +5,7 @@
         <input type="text" name="Email" id="Email" class="form-control" required placeholder="Digite o Email">
         <br>
 
-        <button type="submit" class="btn btn-success w-100">Enviar código</button> 
+        <button type="submit" class="btn btn-warning w-100">Enviar código</button> 
         <br>
         <a onclick="javascript:cancelar()"
             class="btn btn btn-link w-100">
@@ -22,7 +22,7 @@
         <input type="text" name="codigo" id="codigo" class="form-control" required placeholder="">
         <br>
 
-        <button type="submit" class="btn btn-success w-100">Enviar código</button> 
+        <button type="submit" class="btn btn-warning w-100">Enviar código</button> 
         <?php 
     }
 
